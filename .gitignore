@@ -1,6 +1,2 @@
-# Laid by Claude Code when it loads a mod from a folder
-.claude-plugin/types/
-tsconfig.json
-
+build/
 .DS_Store
-node_modules/

@@ -1,6 +1,0 @@
-{
-  "name": "claude-intro",
-  "description": "Claude Code 启动入场动画插件",
-  "owner": { "name": "YorenZZZ", "url": "https://github.com/YorenZZZ" },
-  "plugins": [{ "name": "claude-intro", "source": "./" }]
-}
