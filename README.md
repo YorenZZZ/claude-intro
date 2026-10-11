@@ -4,7 +4,17 @@
 
 ![启动动画预览](docs/preview.webp)
 
-> 静态截图：[docs/preview-still.jpg](docs/preview-still.jpg)
+**[下载 3D 版本 →](https://github.com/YorenZZZ/claude-intro-3d)**（3D 渲染的少女机械师，带完整动作和待机，约 12 秒）
+
+> 上面的动图为了控制体积做了降帧（10 帧/秒）、缩小（800 像素宽）和有损压缩，看起来会糊、会有色块；实际播放约 60 帧/秒、按窗口原尺寸渲染。真实画质以下面的截图为准。
+
+### 截图
+
+以下是 App 在 1280×800 窗口上实际渲染的原尺寸画面（未缩放）：
+
+| 登场 | 问候 |
+| --- | --- |
+| ![登场](docs/screenshots/screenshot-1.jpg) | ![问候](docs/screenshots/screenshot-2.jpg) |
 
 ## 安装
 
@@ -83,4 +93,4 @@ cd claude-intro
 
 ---
 
-**English:** A small macOS background app that plays a side-scrolling-action-MMO style "second awakening" cut-in over the Claude desktop app's window while it starts: an original AI-generated mechanic character floats as a cut-out layer in front of a slashed panel, then greets you with a random line and folds away after about 6.7 seconds, revealing the loaded app. Install with `./build.sh --install` (macOS 14+, Xcode Command Line Tools); it opens at login and waits for Claude to launch. Preview with `open -n "/Applications/Claude Intro.app" --args --play`; remove with `./build.sh --uninstall`.
+**English:** A small macOS background app that plays a side-scrolling-action-MMO style "second awakening" cut-in over the Claude desktop app's window while it starts: an original AI-generated mechanic character floats as a cut-out layer in front of a slashed panel, then greets you with a random line and folds away after about 6.7 seconds, revealing the loaded app. Install with `./build.sh --install` (macOS 14+, Xcode Command Line Tools); it opens at login and waits for Claude to launch. Preview with `open -n "/Applications/Claude Intro.app" --args --play`; remove with `./build.sh --uninstall`. A 3D version lives at [YorenZZZ/claude-intro-3d](https://github.com/YorenZZZ/claude-intro-3d).
